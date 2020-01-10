@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });    
 Route::get('customers', 'CustomersController@list');
 Route::get('about', 'CustomersController@about');
