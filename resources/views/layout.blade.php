@@ -10,21 +10,22 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         
     </head>
+    
     <body>
-            <ul class="nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="about">About us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact">Contact us</a>
-                    </li> 
-                    <li class="nav-item">
-                      <a class="nav-link" href="customers">Customers</a>
-                    </li>                  
-            </ul>
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact">Contact us</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="customers">Customers</a>
+            </li>                  
+        </ul>
         <div class="container">
            @yield('content')
            

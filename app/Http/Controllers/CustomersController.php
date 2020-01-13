@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Support\Facades\DB;
+use App\chum;
 use Illuminate\Http\Request;
 
 class CustomersController extends Controller
