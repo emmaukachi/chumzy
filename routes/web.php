@@ -18,3 +18,4 @@ Route::get('customers', 'CustomersController@list');
 Route::get('about', 'CustomersController@about');
 Route::get('contact', 'CustomersController@contact');
 Route::get('customers', 'CustomersController@list');
+Route::post('customers','CustomersController@store');
